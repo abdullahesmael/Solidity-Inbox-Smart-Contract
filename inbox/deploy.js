@@ -3,10 +3,10 @@ const Web3 = require('web3');
 
 const { abi, evm } = require('./compile');
 
-provider = new HDWalletProvider(
-  'REPLACE_WITH_YOUR_MNEMONIC',
-  'REPLACE_WITH_YOUR_INFURA_URL'
-);
+const provider = new HDWalletProvider(
+    'pave afraid tennis amazing concert toe dog explain glimpse asthma obscure abandon', // replace mnemonic with your own
+    'https://rinkeby.infura.io/v3/0acfebeade894b578dd109dcd0662137' // replace rinkeby with your own network
+);    
 
 const web3 = new Web3(provider);
 
