@@ -3,8 +3,8 @@ const Web3 = require("web3");
 const {interface, bytecode} = require("./compile");
 
 const provider = new HDWalletProvider(
-    'pave afraid tennis amazing concert toe dog explain glimpse asthma obscure abandon',
-    'https://rinkeby.infura.io/v3/0acfebeade894b578dd109dcd0662137'
+    'pave afraid tennis amazing concert toe dog explain glimpse asthma obscure abandon', // replace mnemonic with your own
+    'https://rinkeby.infura.io/v3/0acfebeade894b578dd109dcd0662137' // replace rinkeby with your own network
 );
 const web3 = new Web3(provider);
 
